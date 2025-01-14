@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="Style.css">
+    <meta name="viewport" content="width=device-width, initial-scale">
+</head>
+<body>
+
+    <?php
+
+    // $stuName = array("Aung Aung","Bo Bo","Ki Ki","Docker","Alex");
+
+
+    // for ($i=0; $i < count($stuName); $i++) { 
+    //     echo "[".($i+1)."]  ".$stuName[$i]."<br>";
+    // }
+
+    //sort($stuName);
+    //rsort($stuName);  // reverse sorting
+
+    $stuName = array("001"=>"Aung Aung",   // associarativearray (key-value pair)
+                     "098"=>"Bo Bo",
+                     "909"=>"Ki Ki",
+                     "987"=>"Docker",
+                     "675"=>"Alex");
+
+    foreach ($stuName as $key => $value) 
+    {
+        echo $key.$value."<br>";
+    }
+
+    // ksort($stuName);
+    // krsort($stuName);
+
+    ?>
+
+
+<body>
+<html>
